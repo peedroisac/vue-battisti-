@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="vue-battisti/1_instalacao_vue/favicon.ico" type="image/x-icon">
+
+
     <title>Hello Vue</title>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -10,9 +13,14 @@
 </head>
 
 <body>
-    <div id="app"> 
-        <p>Meu nome é: {{ name }}</p>
-        <p>Meu sobre nome é: {{ lastname}}</p>
+    <div id="app">
+        <form id="app-form">
+            <input type="text" v-model="input_name" placeholder="Digite o seu nome: ">
+            <input type="submit" value="Enviar" v-on:Click="submitForm">
+        </form>
+        <p>Meu nome é: {{ name }}.</p>
+        <p>Data binfing: {{ input_name}}</p>
+     
     </div> 
 </body>
 </html>
