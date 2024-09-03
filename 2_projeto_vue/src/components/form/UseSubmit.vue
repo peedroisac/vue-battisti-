@@ -6,6 +6,6 @@
 <script>
 
 export default{
-    name: 'Submit'
+    name: 'UseSubmit'
 }
 </script>

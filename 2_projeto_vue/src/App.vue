@@ -9,7 +9,7 @@
 <script>
 import PrimeiroComponente from './components/PrimeiroComponente.vue'
 import LifeCycle from './components/LifeCycle.vue';
-import Pessoa from './components/Pessoa.vue';
+import Pessoa from './components/UsePessoa.vue';
 
   export default {
     name: 'App',

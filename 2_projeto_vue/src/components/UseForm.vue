@@ -7,20 +7,20 @@
         <InputText />
       </div>
       <div>
-      <Submit />
+      <UseSubmit />
     </div>
     </from>
 </template>
 
 <script>
 import InputText from './form/InputText.vue';
-import Submit from './form/Submit.vue';
+import UseSubmit from './form/UseSubmit.vue';
 
 export default{
-    name: 'Form',
+    name: 'UseForm',
     components:{
         InputText,
-        Submit
+        UseSubmit
     }
 }
 </script>

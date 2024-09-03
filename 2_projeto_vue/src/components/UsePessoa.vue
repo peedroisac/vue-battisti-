@@ -1,20 +1,20 @@
 <template>
     <div>
         <h2>Esta é a descrição da pessoa: {{ nome }}</h2>
-        <Info />
-        <Form />
+        <UseInfo />
+        <UseForm />
     </div>
 </template>
 
 <script>
-import Info from './Info.vue';
-import Form from './Form.vue';
+import UseInfo from './UseInfo.vue';
+import UseForm from './UseForm.vue';
 
 export default {
-    name: 'Pessoa',
+    name: 'UsePessoa',
     components: {
-        Info,
-        Form
+        UseInfo,
+        UseForm,
     },
     data(){
         return{
